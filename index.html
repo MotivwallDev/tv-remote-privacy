@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politique de confidentialité — Télécommande TV + Programme</title>
+  <style>
+    :root { --accent: #00e5ff; --bg: #0d0d1a; --surface: #161628; --text: #e2e8f0; --dim: #8892a4; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.7; }
+    .lang-switcher { position: sticky; top: 0; background: var(--surface); border-bottom: 1px solid #ffffff18; display: flex; justify-content: center; gap: 12px; padding: 12px; z-index: 10; }
+    .lang-switcher a { color: var(--dim); text-decoration: none; font-size: 14px; padding: 6px 18px; border-radius: 20px; border: 1px solid #ffffff18; transition: .2s; }
+    .lang-switcher a.active, .lang-switcher a:hover { color: var(--accent); border-color: var(--accent); }
+    .lang-switcher a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .section { display: none; max-width: 780px; margin: 0 auto; padding: 48px 24px 80px; }
+    .section.active { display: block; }
+    h1 { font-size: 28px; font-weight: 700; color: #fff; margin-bottom: 8px; text-wrap: balance; }
+    .app-name { color: var(--accent); }
+    .updated { color: var(--dim); font-size: 13px; margin-bottom: 40px; }
+    h2 { font-size: 17px; font-weight: 600; color: #fff; margin: 32px 0 10px; border-left: 3px solid var(--accent); padding-left: 12px; }
+    p, li { color: var(--text); font-size: 15px; margin-bottom: 10px; }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+    .summary { background: #00e5ff12; border: 1px solid #00e5ff30; border-radius: 12px; padding: 16px 20px; margin: 16px 0; }
+    .summary li { margin-bottom: 6px; }
+    .summary li:last-child { margin-bottom: 0; }
+    footer { text-align: center; color: var(--dim); font-size: 12px; padding-bottom: 32px; }
+    @media (prefers-reduced-motion: reduce) { .lang-switcher a { transition: none; } }
+  </style>
+</head>
+<body>
+
+<div class="lang-switcher">
+  <a href="#fr" class="active" onclick="return show('fr',this)">Français</a>
+  <a href="#en" onclick="return show('en',this)">English</a>
+</div>
+
+<!-- FRENCH -->
+<div id="fr" class="section active" lang="fr">
+  <h1>Politique de confidentialité<br><span class="app-name">Télécommande TV + Programme</span></h1>
+  <p class="updated">Dernière mise à jour : 10 novembre 2026 — application iPhone</p>
+
+  <div class="summary">
+    <ul>
+      <li>Aucun compte n'est nécessaire et le développeur n'exploite aucun serveur qui recevrait vos données.</li>
+      <li>Vos appareils, chaînes, favoris et réglages restent sur votre iPhone.</li>
+      <li>L'application ne vous suit pas : elle ne demande pas l'identifiant publicitaire et n'affiche que des publicités non personnalisées.</li>
+    </ul>
+  </div>
+
+  <h2>1. Qui sommes-nous</h2>
+  <p><strong>Télécommande TV + Programme</strong> est une télécommande pour box TV et téléviseurs connectés, publiée par MotivWallDev, développeur indépendant. Elle n'est affiliée à aucun opérateur ni fabricant.</p>
+
+  <h2>2. Données conservées uniquement sur votre iPhone</h2>
+  <ul>
+    <li>Appareils appairés : nom et adresse IP sur votre réseau local.</li>
+    <li>Le certificat d'appairage créé par l'application, conservé dans le trousseau d'iOS.</li>
+    <li>Favoris, noms de chaînes personnalisés, raccourcis, historique des textes envoyés au téléviseur et préférences (boutons de volume, zapping).</li>
+  </ul>
+  <p>Ces données ne sont jamais envoyées au développeur. Elles sont supprimées en désinstallant l'application. Le certificat d'appairage peut rester dans le trousseau d'iOS après la désinstallation ; il ne contient aucune donnée personnelle.</p>
+
+  <h2>3. Réseau local</h2>
+  <p>L'application recherche les appareils sur votre réseau Wi-Fi, puis communique directement avec eux par une connexion chiffrée (TLS). Ces échanges restent sur votre réseau local. L'accès au réseau local est demandé à la première utilisation.</p>
+
+  <h2>4. Programme TV et mises à jour</h2>
+  <p>Le programme TV est un fichier public téléchargé depuis GitHub Pages (motivwalldev.github.io). Pour savoir si une nouvelle version existe, l'application interroge l'App Store. Ces téléchargements n'envoient aucune donnée vous concernant ; comme pour toute page web, ces services voient l'adresse IP de la connexion.</p>
+
+  <h2>5. Contrôle vocal et dictée</h2>
+  <p>Le micro n'est utilisé que lorsque vous appuyez sur le bouton micro. La voix est traitée par la reconnaissance vocale d'Apple, qui peut l'envoyer aux serveurs d'Apple, selon la politique de confidentialité d'Apple. L'application ne reçoit que le texte reconnu ; elle n'enregistre ni ne conserve aucun son.</p>
+
+  <h2>6. Publicité — Google AdMob</h2>
+  <p>La version gratuite affiche au plus une publicité au lancement, fournie par Google AdMob, uniquement après le premier appairage d'un appareil. L'achat Premium la supprime.</p>
+  <p>L'application ne vous suit pas : elle ne demande jamais l'accès à l'identifiant publicitaire de l'iPhone (IDFA) et ne demande que des publicités non personnalisées. Pour afficher et mesurer les publicités, Google peut traiter l'adresse IP, des informations sur l'appareil, une localisation approximative déduite de l'adresse IP et vos interactions avec les publicités.</p>
+  <ul>
+    <li>Dans l'Espace économique européen et au Royaume-Uni, votre consentement est demandé avant toute publicité. Vous pouvez le modifier à tout moment dans <em>Paramètres → Options de confidentialité</em> de l'application.</li>
+  </ul>
+  <p>Politique de Google : <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></p>
+
+  <h2>7. Achats — App Store et RevenueCat</h2>
+  <p>L'achat Premium (paiement unique) est traité par l'App Store : le développeur ne voit jamais vos données de paiement. Pour vérifier cet achat, l'application utilise RevenueCat, qui reçoit un identifiant anonyme créé par l'application et l'historique des achats, sans nom ni adresse e-mail.</p>
+  <p>Politique de RevenueCat : <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></p>
+
+  <h2>8. Autorisations</h2>
+  <ul>
+    <li><strong>Réseau local</strong> : trouver et piloter votre box ou votre téléviseur.</li>
+    <li><strong>Micro et reconnaissance vocale</strong> (facultatifs) : contrôle vocal et dictée.</li>
+  </ul>
+
+  <h2>9. Enfants</h2>
+  <p>L'application ne s'adresse pas aux enfants de moins de 13 ans et ne collecte pas sciemment de données les concernant.</p>
+
+  <h2>10. Vos droits</h2>
+  <p>Conformément au RGPD, vous pouvez demander l'accès, la rectification ou la suppression de vos données. Le développeur ne conservant aucune donnée vous concernant, la plupart des demandes relèvent de Google, d'Apple ou de RevenueCat ; nous vous aiderons néanmoins à les adresser.</p>
+
+  <h2>11. Modifications</h2>
+  <p>Cette politique peut être mise à jour ; la date en haut de la page indique la dernière version.</p>
+
+  <h2>12. Contact</h2>
+  <p>Pour toute question : <a href="mailto:support@motivwall.app">support@motivwall.app</a></p>
+</div>
+
+<!-- ENGLISH -->
+<div id="en" class="section" lang="en">
+  <h1>Privacy Policy<br><span class="app-name">Télécommande TV + Programme</span></h1>
+  <p class="updated">Last updated: November 10, 2026 — iPhone app</p>
+
+  <div class="summary">
+    <ul>
+      <li>No account is needed and the developer runs no server that receives your data.</li>
+      <li>Your devices, channels, favourites and settings stay on your iPhone.</li>
+      <li>The app does not track you: it never asks for the advertising identifier and only shows non-personalised ads.</li>
+    </ul>
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p><strong>Télécommande TV + Programme</strong> is a remote control for TV boxes and smart TVs, published by MotivWallDev, independent developer. It is not affiliated with any operator or manufacturer.</p>
+
+  <h2>2. Data kept on your iPhone only</h2>
+  <ul>
+    <li>Paired devices: name and IP address on your local network.</li>
+    <li>The pairing certificate created by the app, kept in the iOS keychain.</li>
+    <li>Favourites, custom channel names, shortcuts, history of text sent to the TV, and preferences (volume buttons, channel surfing).</li>
+  </ul>
+  <p>This data is never sent to the developer and is deleted when you uninstall the app. The pairing certificate may remain in the iOS keychain after uninstalling; it contains no personal data.</p>
+
+  <h2>3. Local network</h2>
+  <p>The app looks for devices on your Wi-Fi network, then talks to them directly over an encrypted (TLS) connection. These exchanges stay on your local network. Local network access is requested on first use.</p>
+
+  <h2>4. TV guide and updates</h2>
+  <p>The TV guide is a public file downloaded from GitHub Pages (motivwalldev.github.io). To find out whether a new version exists, the app queries the App Store. These downloads send no data about you; as with any web page, these services see the connection's IP address.</p>
+
+  <h2>5. Voice control and dictation</h2>
+  <p>The microphone is only used when you tap the microphone button. Speech is processed by Apple's speech recognition, which may send it to Apple's servers, under Apple's privacy policy. The app only receives the recognised text; it never records or keeps any audio.</p>
+
+  <h2>6. Advertising — Google AdMob</h2>
+  <p>The free version shows at most one ad at launch, served by Google AdMob, and only after a device has been paired for the first time. The Premium purchase removes it.</p>
+  <p>The app does not track you: it never asks for access to the iPhone advertising identifier (IDFA) and only requests non-personalised ads. To show and measure ads, Google may process the IP address, device information, an approximate location derived from the IP address, and your interactions with ads.</p>
+  <ul>
+    <li>In the European Economic Area and the United Kingdom, your consent is requested before any ad is shown. You can change it at any time in the app's <em>Settings → Privacy options</em>.</li>
+  </ul>
+  <p>Google's policy: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></p>
+
+  <h2>7. Purchases — App Store and RevenueCat</h2>
+  <p>The Premium purchase (one-time payment) is processed by the App Store: the developer never sees your payment details. To verify the purchase, the app uses RevenueCat, which receives an anonymous identifier created by the app and the purchase history, without any name or email address.</p>
+  <p>RevenueCat's policy: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></p>
+
+  <h2>8. Permissions</h2>
+  <ul>
+    <li><strong>Local network</strong>: finding and controlling your TV box or TV.</li>
+    <li><strong>Microphone and speech recognition</strong> (optional): voice control and dictation.</li>
+  </ul>
+
+  <h2>9. Children</h2>
+  <p>The app is not directed at children under 13 and does not knowingly collect data about them.</p>
+
+  <h2>10. Your rights</h2>
+  <p>Under the GDPR you may request access to, correction of or deletion of your data. As the developer keeps no data about you, most requests concern Google, Apple or RevenueCat; we will still help you make them.</p>
+
+  <h2>11. Changes</h2>
+  <p>This policy may be updated; the date at the top of the page shows the latest version.</p>
+
+  <h2>12. Contact</h2>
+  <p>For any question: <a href="mailto:support@motivwall.app">support@motivwall.app</a></p>
+</div>
+
+<footer>
+  <p>© 2026 MotivWallDev — Télécommande TV + Programme</p>
+</footer>
+
+<script>
+function show(lang, el) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.lang-switcher a').forEach(a => a.classList.remove('active'));
+  document.getElementById(lang).classList.add('active');
+  el.classList.add('active');
+  return false;
+}
+if (location.hash === '#en') show('en', document.querySelectorAll('.lang-switcher a')[1]);
+</script>
+</body>
+</html>
